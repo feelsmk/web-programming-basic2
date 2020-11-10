@@ -1,0 +1,116 @@
+/*디폴트 디자인 삭제*/
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap");
+
+/*자주 쓰이는 색상*/
+:root {
+  --blue: #0061d0;
+  --main-border: 1.2px solid rgba(0, 0, 0, 0.15);
+}
+
+/*폰트 설정*/
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.main-screen {
+  margin: 30px;
+}
+
+body {
+  line-height: 1.7;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-weight: 700;
+}
+
+.nav {
+  display: inline;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: var(--blue);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.nav a {
+  color: white;
+}
+
+.name {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 900;
+  color: var(--blue);
+  margin: 50px 0px;
+}
+
+.text {
+  padding: 5px;
+  border: 3px rgb(0, 0, 0, 0.2);
+  border-style: dotted;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.uni-image {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.img-fluid {
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.caption {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  font-size: 12px;
+  padding: 7px 10px;
+  color: var(--blue);
+  display: inline-block;
+}
+
+.caption {
+  display: flex;
+  justify-content: center;
+}
+
+.text,
+.my-favorites,
+.paint {
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 20px;
+}
+
+.paint {
+  background-color: rgba(0, 0, 0, 0.05);
+  text-align: right;
+}
